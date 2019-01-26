@@ -1,0 +1,23 @@
+{
+  "name": "asyncpresentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "one": "parcel ./src/1.html",
+    "two": "parcel ./src/2.html",
+    "three": "node ./src/3.js",
+    "four": "node ./src/4.js",
+    "five": "parcel ./src/5.html",
+    "six": "node ./src/6.js",
+    "seven": "node ./src/7.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "baconjs": "^2.0.10",
+    "node-fetch": "^2.3.0",
+    "parcel-bundler": "^1.11.0"
+  }
+}
